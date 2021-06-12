@@ -1,0 +1,9 @@
+{
+    "env": {
+        "JWT_SECRET": "secret_token",
+        "HOST": "localhost",
+        "USER": "root",
+        "DATABASE_PASSWORD": "Ido239738416",
+        "DATABASE_NAME": "vacations_db"
+    }
+}

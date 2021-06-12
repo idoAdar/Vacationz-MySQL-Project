@@ -1,0 +1,97 @@
+.follow-card-main {
+  margin: 1rem auto;
+  width: 25rem;
+  height: 32rem;
+  overflow: hidden;
+  box-shadow: 2px 3px 6px #ccc;
+  transition: 0.3s ease-in-out;
+  background-color: #ffff;
+}
+
+.follow-card-main:hover {
+  transform: scale(1.05);
+}
+
+.follow-card-info {
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 1rem;
+  width: 100%;
+  height: 16vh;
+}
+
+.follow-card-info h3 {
+  color: #fa4033;
+}
+
+.follow-card-info button,
+.follow-card-info a {
+  margin: 0.5rem;
+  border: none;
+  color: #ffff;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.follow-card-info a {
+  text-decoration: none;
+  padding: 0.5rem 2rem;
+}
+
+.button-red {
+  background-color: #fa4033;
+}
+
+.button-blue {
+  background-color: #ffab2d;
+}
+
+.follow-card-info button:hover,
+.follow-card-info a:hover {
+  opacity: 0.7;
+}
+
+.follow-card-info span {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: #fa4033;
+}
+
+.follow-card-img {
+  height: 16rem;
+}
+
+.follow-card-main img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 375px) {
+  .follow-card-main {
+    margin: 2rem auto;
+    width: 100%;
+    height: 30rem;
+  }
+
+  .follow-card-info {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  .follow-card-info button {
+    padding: 0.5rem 1.5rem;
+  }
+
+  .follow-card-info a {
+    padding: 0.5rem 2.5rem;
+  }
+
+  .follow-card-info span {
+    font-size: 1rem;
+  }
+
+  .follow-card-img {
+    height: 15rem;
+  }
+}

@@ -1,0 +1,46 @@
+.navbar-main {
+  width: 100%;
+  height: 6rem;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffff;
+  z-index: 200;
+}
+
+.navbar-main small {
+  color: #707070;
+}
+
+.navbar-main .nav,
+.navbar-main .nav-left {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  max-height: 6rem;
+}
+
+.navbar-main a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+.nav .active {
+  color: rgb(255, 0, 0) !important;
+}
+
+.navbar-main a:hover {
+  color: red;
+}
+
+@media (max-width: 375px) {
+  .navbar-main li {
+    font-size: 0.8rem;
+  }
+
+  .navbar-main a {
+    margin: 0 0.5rem;
+  }
+}

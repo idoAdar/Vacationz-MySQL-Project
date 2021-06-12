@@ -1,0 +1,89 @@
+.login-grid {
+  margin: 0 auto;
+  margin-bottom: 8rem;
+  width: 55rem;
+  height: 28rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 30% 70%;
+  border-radius: 10px;
+  box-shadow: 2px 3px 8px #ccc;
+  background-color: #ffff;
+}
+
+.login-header {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.login-header small {
+  color: red;
+}
+
+.login-header h1::first-letter,
+.login-header i {
+  color: #fa4033;
+  font-size: 3rem;
+}
+
+.login-grid form {
+  height: 100%;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+}
+
+.login-grid button {
+  background-color: #fa4033;
+  padding: 0.5rem 2rem;
+  color: #ffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-grid button:hover {
+  opacity: 0.7;
+}
+
+.login-vector-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  width: 100%;
+  height: 50%;
+}
+
+.login-vector-image img {
+  width: 100%;
+  height: 20rem;
+}
+
+@media (max-width: 375px) {
+  .login-grid {
+    width: 100%;
+    grid-template-columns: 100%;
+  }
+
+  .login-grid form {
+    padding: 0rem;
+  }
+
+  .login-vector-image {
+    display: none;
+  }
+}

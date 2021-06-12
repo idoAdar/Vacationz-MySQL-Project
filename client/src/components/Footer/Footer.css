@@ -1,0 +1,15 @@
+.footer-container {
+  width: 100%;
+  font-size: 14px;
+  padding: 2rem;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  background-color: #ffff;
+}
+
+@media (max-width: 375px) {
+  .footer-container {
+    padding: 3rem;
+    width: 100%;
+  }
+}

@@ -1,0 +1,39 @@
+.inputElement input[type="text"],
+.inputElement input[type="password"],
+.inputElement input[type="email"],
+.inputElement input[type="date"],
+.inputElement input[type="number"],
+.inputElement input[type="textarea"] {
+  width: 20rem;
+  height: 4vh;
+  padding: 1rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #00000054;
+  outline: none;
+}
+
+label {
+  font-size: 0.8rem;
+}
+
+.inputElement small {
+  display: block;
+  padding-left: 1rem;
+  color: red;
+}
+
+@media (max-width: 375px) {
+  .inputElement input[type="text"],
+  .inputElement input[type="password"],
+  .inputElement input[type="email"],
+  .inputElement input[type="date"],
+  .inputElement input[type="number"],
+  .inputElement input[type="textarea"] {
+    width: 17rem;
+  }
+
+  .inputElement small {
+    font-size: 11px;
+  }
+}

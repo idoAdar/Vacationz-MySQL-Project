@@ -1,0 +1,52 @@
+.home-main-title {
+  text-align: center;
+}
+
+.home-main-title h1::first-letter {
+  color: #fa4033;
+  font-size: 3rem;
+}
+
+.home-main-title p:first-of-type {
+  color: #fa4033;
+  border-radius: 5px;
+}
+
+.vacations-grid {
+  margin: 0 auto;
+  width: 82rem;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.vector-image {
+  width: 50rem;
+  height: 30vh;
+  margin: 0 auto;
+}
+
+.vector-image img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1660px) {
+  .vacations-grid {
+    grid-template-columns: 50% 50%;
+    width: 62rem;
+  }
+}
+
+@media (max-width: 1025px) {
+  .vacations-grid {
+    grid-template-columns: 100%;
+    width: 35rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .vacations-grid {
+    grid-template-columns: 100%;
+    width: 100%;
+  }
+}

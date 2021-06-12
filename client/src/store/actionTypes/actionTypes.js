@@ -1,0 +1,23 @@
+// Admin Types:
+export const CREATE_VACATION = 'CREATE_VACATION';
+export const UPDATE_VACATION = 'UPDATE_VACATION';
+export const DELETE_VACATION = 'DELETE_VACATION';
+
+// User Types:
+export const GET_ALL_VACATIONS = 'GET_ALL_VACATIONS';
+export const GET_USER_VACATIONS = 'GET_USER_VACATIONS';
+
+export const FOLLOW_VACATION = 'FOLLOW_VACATION';
+export const FOLLOW_VACATION_FAIL = 'FOLLOW_VACATION_FAIL';
+export const REMOVE_FOLLOW_VACATION = 'REMOVE_FOLLOW_VACATION';
+export const REMOVE_FOLLOW_VACATION_FAIL = 'REMOVE_FOLLOW_VACATION_FAIL';
+
+// Auth Types:
+export const SIGN_UP = 'SIGN_UP';
+export const SIGN_UP_FAIL = 'SIGN_UP_FAIL';
+export const LOGOUT = 'LOGOUT';
+
+// UI Types:
+export const CLEAR_NOTE = 'CLEAR_NOTE';
+export const SET_SPINNER = 'SET_SPINNER';
+export const SERVER_ERROR = 'SERVER_ERROR';

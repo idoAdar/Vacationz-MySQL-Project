@@ -1,0 +1,8 @@
+.error-container {
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.error-container p {
+  color: #fa4033;
+}
